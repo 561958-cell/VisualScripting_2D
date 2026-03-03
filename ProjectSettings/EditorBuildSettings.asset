@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: dcd90242e55637946b14a35449e2dddf
+  - enabled: 0
+    path: Assets/_Assets/Scenes/MainMenu.unity
+    guid: 032b0da36c575964aaac11ba0de656d7
+  - enabled: 0
+    path: Assets/_Assets/Scenes/Kitchen.unity
+    guid: 6e25a8e5eb20d8f448ed0e794db935cd
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 041c01815c5c1c140abd9daf2cd0184e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
