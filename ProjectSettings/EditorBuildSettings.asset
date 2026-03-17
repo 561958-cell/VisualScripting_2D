@@ -26,6 +26,33 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Assets/Scenes/Kitchen.unity
     guid: 6e25a8e5eb20d8f448ed0e794db935cd
+  - enabled: 0
+    path: Assets/_Assets/Scenes/Kitchen2.unity
+    guid: 6ef4a9f939506a047a3934767092c9e8
+  - enabled: 0
+    path: Assets/_Assets/Scenes/Kitchen3.unity
+    guid: 4c151a926ae58144dbfa332246f228be
+  - enabled: 0
+    path: Assets/_Assets/Scenes/Kitchen4.unity
+    guid: 78d7b6707d3c5c84a8d531628df98b5e
+  - enabled: 0
+    path: Assets/_Assets/Scenes/Sink.unity
+    guid: c2691ac262fc2634cbeae35165450c70
+  - enabled: 0
+    path: Assets/_Assets/Scenes/Fridge.unity
+    guid: 38885e322dcbac04da2f0428f03ecf5c
+  - enabled: 0
+    path: Assets/_Assets/Scenes/Counter.unity
+    guid: 651238a43fa0aa64e95214fa2672a60b
+  - enabled: 0
+    path: Assets/_Assets/Scenes/Stove.unity
+    guid: 0c5dea2ebe066f94895573b138617e1d
+  - enabled: 0
+    path: Assets/_Assets/Scenes/MealFinished.unity
+    guid: ad902d9cc8635904495ce9d6c50157c1
+  - enabled: 0
+    path: Assets/_Assets/Scenes/MealSelection.unity
+    guid: 5c41a29aa85f4fe42896749404580937
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 041c01815c5c1c140abd9daf2cd0184e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
