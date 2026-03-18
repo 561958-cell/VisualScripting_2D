@@ -4408,11 +4408,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1648099168572825207, guid: cce81affc7c20f246a3953312f6e7c4a, type: 3}
       propertyPath: orthographic size
-      value: 2.16
+      value: 0.246
       objectReference: {fileID: 0}
     - target: {fileID: 5732366557838818089, guid: cce81affc7c20f246a3953312f6e7c4a, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157077297103187621, guid: cce81affc7c20f246a3953312f6e7c4a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8157077297103187621, guid: cce81affc7c20f246a3953312f6e7c4a, type: 3}
       propertyPath: m_AssetsPPU
