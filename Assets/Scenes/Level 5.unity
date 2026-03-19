@@ -433,6 +433,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7957864046111359004, guid: aee0cfca2678c4d45b953c698703749b, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":8.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Jump
+        Strength","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Walk
+        Speed","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Run
+        Speed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Sound
+        Jump","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -853,7 +866,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.03
+  orthographic size: 2.51
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -996,7 +1009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3527683611777660730, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3540255641859394229, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1039,6 +1052,14 @@ PrefabInstance:
     - target: {fileID: 8157304187272634936, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
       propertyPath: m_SizeDelta.y
       value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157304187272634936, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157304187272634936, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 8157304187272634936, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
       propertyPath: m_LocalPosition.x

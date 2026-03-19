@@ -1246,6 +1246,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7957864046111359004, guid: aee0cfca2678c4d45b953c698703749b, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":8.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Jump
+        Strength","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Walk
+        Speed","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Run
+        Speed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Sound
+        Jump","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1254,11 +1267,6 @@ PrefabInstance:
       addedObject: {fileID: 1835639130}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee0cfca2678c4d45b953c698703749b, type: 3}
---- !u!4 &817680040 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2218625172522473978, guid: aee0cfca2678c4d45b953c698703749b, type: 3}
-  m_PrefabInstance: {fileID: 817680039}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &853881770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1306,6 +1314,14 @@ PrefabInstance:
     - target: {fileID: 8157304187272634936, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
       propertyPath: m_SizeDelta.y
       value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157304187272634936, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157304187272634936, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 8157304187272634936, guid: eb2f8c57bbe56bf47a3f3733575b169e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3041,7 +3057,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.57
+  orthographic size: 2.47
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3066,11 +3082,11 @@ Transform:
   m_GameObject: {fileID: 1835639127}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -0.06, z: -10}
+  m_LocalPosition: {x: 0.01999998, y: -0.060000002, z: -10}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 817680040}
+  m_Father: {fileID: 1845336297}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1835639131
 MonoBehaviour:
@@ -3116,6 +3132,11 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!4 &1845336297 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2218625172522473978, guid: aee0cfca2678c4d45b953c698703749b, type: 3}
+  m_PrefabInstance: {fileID: 817680039}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1861042182
 PrefabInstance:
   m_ObjectHideFlags: 0
